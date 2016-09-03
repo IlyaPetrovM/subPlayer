@@ -1,0 +1,31 @@
+/*Styles*/
+@font-face {
+    font-family: "00 ZRCola 2"; /* Гарнитура шрифта */
+    src: url(00_ZRCola_Re_2009-02-26a.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+	margin: 0;
+	font-size: 16pt;
+	color: #300;
+	font-family: '00 ZRCola 2', "Times New Roman" , Regular;
+	border: 4em #eee solid;
+}
+header{
+	display: block;
+	background: #ddd;
+	text-align: center;
+}
+
+nav {
+	display: none;
+}
+
+footer{
+	text-align: center;
+	padding: 1em;
+	width: 100%;
+	color: #999;
+	display: block;
+	font-size: smaller;
+}
+

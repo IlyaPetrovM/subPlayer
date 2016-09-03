@@ -1,0 +1,25 @@
+
+.text{
+  display: table;
+  table-layout: fixed;
+  width: 99%;
+  margin: 1em 0;
+  text-align: justify;
+  /*border: 1em;*/
+}
+.text ul {
+	display: table-row;
+	background: transparent;
+	list-style: none;
+}
+.text ul li{
+	/*border-left: 1em #eee solid;*/
+  /*border-radius: 3em;*/
+	display: table-cell;
+  	width: 33%;
+  	padding: 0em 1em;
+  	list-style: none;
+}
+.text ul:hover{
+  color: #040;
+}

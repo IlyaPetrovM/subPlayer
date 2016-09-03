@@ -1,0 +1,43 @@
+audio{
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	padding: 1em;
+	width: 100%;
+	background: transparent;
+}
+
+/*Player*/
+#track {
+	background: #ccc;
+	min-width: 90%;
+	height: 4px;
+	display: inline-block;
+	top: -2px;
+	position: relative;
+}
+#player{
+	max-width: 900px;
+	margin: 0 auto;
+}
+#track #pos{
+	display: block;
+	background: white;
+	height: 10px;
+	width: 10px;
+	border: 1px #ccc solid;
+	top:-5px;
+	position: relative;
+	border-radius: 0.5em;
+}
+#play {
+	text-align: center;
+	border-radius: 1.5em;
+	border: 1px #eee solid;
+	background: #ddd;
+	font-size: 14pt;
+	padding: 0px 0px 0px 5px;
+	width: 3em;
+	height: 3em;
+	display: inline-block;
+}
